@@ -55,6 +55,29 @@ func Say(message string) string
 
 ```
 
+## go list
+
+### Build targets
+
+```sh
+$ go list -f={{.GoFiles}} ./pkg/hello/
+[doc.go hello.go]
+```
+
+### Test targets in same package
+
+```sh
+$ go list -f={{.TestGoFiles}} ./pkg/hello/
+[hello_test.go]
+```
+
+### Test targets in external test package
+
+```sh
+$ go list -f={{.XTestGoFiles}} ./pkg/hello/
+[hello_external_test.go]
+```
+
 ## references
 
 - 書籍「プログラミング言語Go」第11章 テスト
