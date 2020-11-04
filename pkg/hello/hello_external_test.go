@@ -1,4 +1,4 @@
-// Package hello_test is external test package for test package.
+// Package hello_test is external test package for hello package.
 package hello_test
 
 import (
