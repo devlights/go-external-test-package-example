@@ -54,3 +54,8 @@ func Say(message string) string
     if parameter is empty, return empty.
 
 ```
+
+## references
+
+- [外部テストパッケージの利用ケース](https://qiita.com/hogedigo/items/5f491994647aa4a8a905)
+- [5 advanced testing techniques in Go](https://segment.com/blog/5-advanced-testing-techniques-in-go/)
