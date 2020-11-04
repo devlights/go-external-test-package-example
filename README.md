@@ -57,5 +57,8 @@ func Say(message string) string
 
 ## references
 
+- 書籍「プログラミング言語Go」第11章 テスト
+  - ここに外部テストパッケージの件も含めて記載されています
 - [外部テストパッケージの利用ケース](https://qiita.com/hogedigo/items/5f491994647aa4a8a905)
 - [5 advanced testing techniques in Go](https://segment.com/blog/5-advanced-testing-techniques-in-go/)
+- [Go Fridayこぼれ話：非公開（unexported）な機能を使ったテスト](https://engineering.mercari.com/blog/entry/2018-08-08-080000/)
